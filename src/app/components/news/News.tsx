@@ -15,7 +15,7 @@ export default function News() {
                     transition={{ duration: 0.5, ease: "easeOut" }}
                     className="w-full text-center"
                 >
-                    <p className="text-xl font-semibold md:text-2xl uppercase mt-44">What's On Our Mind</p>
+                    <p className="text-xl font-semibold md:text-2xl uppercase mt-44">{"What's On Our Mind"}</p>
                     <h2 className="text-3xl font-bold md:text-5xl text-center">
                         News And <span className="text-[#9742ff]">Headlines</span>
                     </h2>
