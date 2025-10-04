@@ -89,7 +89,7 @@ export default function NewsCard
                         <GoDash className="text-[#9742ff] w-5 h-5" />
                         <Link
                             href="#"
-                            className="hover:text-[#9742ff] transition-all duration-300 ease-in-out"
+                            className="hover:text-[#9742ff] transition-all duration-300 ease-in-out w-full"
                         >
                             Read More
                         </Link>
