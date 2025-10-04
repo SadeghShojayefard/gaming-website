@@ -8,7 +8,7 @@ export default function Hero() {
             <div className=" mt-[100px] md:mt-0 min-h-[60vh] md:min-h-[calc(100vh)] flex flex-col w-full items-center justify-end  gap-10
             border-b-[4px] border-transparent [border-image:linear-gradient(90deg,transparent_0%,#9841ff_50%,transparent_100%)_1]">
 
-                <p className=" font-semibold md:text-3xl uppercase mt-10">Enjoy The Games</p>
+                <p className=" font-semibold md:text-3xl uppercase mt-10 w-full text-center">Enjoy The Games</p>
 
                 <h1 className="text-3xl font-bold md:text-5xl text-center">Epic Games Made For <br /> True Gamers!</h1>
                 <div className="w-full flex flex-row items-center justify-center">
