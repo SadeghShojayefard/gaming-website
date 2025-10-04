@@ -24,7 +24,7 @@ export default function NewsCard
                 newsDate: string,
                 auther: string
                 newsTitle: string
-                newsText: String
+                newsText: string
             }
     ) {
     return (
