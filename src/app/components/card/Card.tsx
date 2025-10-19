@@ -35,7 +35,7 @@ export default function Card(
                 transition={{ duration: 0.5, ease: "easeOut" }}
                 viewport={{ once: true, amount: 0.5 }}
                 className={` relative 
-            w-[360px] min-h-[160px]
+            w-[340px] min-h-[160px]
                 md:w-[446px] md:min-h-[180px] 
                 ${cardImgAlign == "left" ? "ml-6 md:ml-0" : "mr-6 md:mr-0"}
                 flex flex-row items-center ${cardJustify} overflow-visible 
