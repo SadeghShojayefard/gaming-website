@@ -37,8 +37,9 @@ export default function Card(
                 className={` relative 
             w-[360px] min-h-[160px]
                 md:w-[446px] md:min-h-[180px] 
-                
-                flex flex-row items-center ${cardJustify} overflow-visible `}>
+                ${cardImgAlign == "left" ? "ml-6 md:ml-0" : "mr-6 md:mr-0"}
+                flex flex-row items-center ${cardJustify} overflow-visible 
+                `}>
 
                 <div
                     className={`
@@ -54,6 +55,8 @@ export default function Card(
                         focus-visible:before:scale-100
                         font-bold text-2xl md:text-3xl uppercase
                                         ${cardTxtAlign}
+                                        
+                                        
                     `}
                     style={{ clipPath: `var(${clipPath})` }}
                 >
@@ -68,7 +71,8 @@ export default function Card(
                     alt="team-logo-1"
                     className={`absolute top-0 
                         ${cardImgAlign == "left" ? "-left-1/12 md:-left-2/12" : "-right-1/12 md:-right-2/12"}
-                         w-[150px] h-[140px] md:w-[190px] md:h-[180px]`}
+                         w-[150px] h-[140px] md:w-[190px] md:h-[180px]
+                         `}
                 />
                 <Title clipPath={titleclipPath} text={title} cardPos={titleCardPos} />
 
